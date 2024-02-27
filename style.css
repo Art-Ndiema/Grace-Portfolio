@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #9c27b0; /* Dark Purple */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #673ab7; /* Light Purple on hover */
+}
+
+section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.aboutme {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+    border-color: #9c27b0; /* Dark Purple Border */
+    border-radius: 7px;
+    border-style: groove;
+}
+
+.link {
+    border-radius: 30%;
+    border-color: #9c27b0; /* Dark Purple Border */
+    border-width: 3px;
+    max-width: 100px;
+    border-style: groove;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: #673ab7; /* Light Purple */
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 200;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.project img {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 200px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.project-info h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#contact {
+    background-color: #f3e5f5; /* Light Purple Background */
+}
+
+form {
+    background-color: #fff; /* White Form Background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    color: #673ab7; /* Dark Purple Text Color */
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn-submit {
+    background-color: #9c27b0; /* Dark Purple Submit Button */
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #673ab7; /* Light Purple on hover */
+}
+
+
+header {
+  background-color: #673ab7; /* Dark Purple Background */
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff4081; /* Pink on hover */
+}
