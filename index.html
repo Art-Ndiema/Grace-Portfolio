@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Grace's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about" class="animated fadeInUp">
+        <div class="aboutme">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio website! <br>
+                I am a passionate designer with expertise in web development and UX/UI.
+                Currently working on app creation using Flutter.
+                I love creating visually appealing and user-friendly designs that leave a lasting impression.
+                Feel free to explore my work and get in touch!</p>
+        </div>
+    </section>
+    <section id="portfolio" class="animated fadeInUp">
+        <div class="container">
+            <h2>Grace's Portfolio</h2>
+            <div class="profile">
+                <img src="images\image1.jpeg" alt="Profile photo" class="img-profile">
+                <div class="project-info">
+                    <h3>Github project-info</h3>
+                    <p>Explore my work on Github.</p>
+                    <a href="https://github.com/Art-Ndiema/Art-Ndiema" class="link">Github</a>
+                </div>
+            </div>
+
+            <div class="project animated fadeIn">
+                <img src="images\image2.jpeg" alt="Project 1" class="img-project">
+                <div class="project-info">
+                    <h3>Project 2</h3>
+                    <p>Description of Project 2.</p>
+                </div>
+            </div>
+
+            <div class="project animated fadeIn">
+                <img src="images\image3.jpeg" alt="Project 1" class="img-project">
+            </div>
+
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+    <section id="contact" class="animated fadeInUp">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Send" class="btn-submit">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Grace's Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
